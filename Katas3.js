@@ -16,7 +16,7 @@ for (let i = 1; i <= 25; i++) {
         kata1.appendChild(newText)
 
     var destination = document.getElementById("results")
-            destination.appendChild(kata1)
+        destination.appendChild(kata1)
 }
 createBreak()
 createBreak()
@@ -227,7 +227,7 @@ for (let i = 0; i < sampleArray.length; i++) {
     var kata14 = document.createElement("span")
         kata14.innerHTML = ""
         
-     var newText = document.createTextNode(sqArrValue + ", ")
+    var newText = document.createTextNode(sqArrValue + ", ")
         kata14.appendChild(newText)
         
     var destination = document.getElementById("results")
